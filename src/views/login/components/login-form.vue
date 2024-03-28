@@ -1,8 +1,8 @@
 <template>
   <div class="login-form-container">
-    <!-- <div class="login-form-language">
-      <LoginLang />
-    </div> -->
+    <div class="login-form-language">
+      <LoginLang s/>
+    </div>
     <div v-if="display">
       <LoginRegister />
     </div>
